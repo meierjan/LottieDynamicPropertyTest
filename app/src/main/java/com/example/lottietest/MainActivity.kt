@@ -48,8 +48,8 @@ fun AnimationView(
     name: String,
     modifier: Modifier = Modifier,
 ) {
-//    val composition by rememberLottieComposition(LottieCompositionSpec.RawRes(R.raw.heart))
-    val composition by rememberLottieComposition(LottieCompositionSpec.RawRes(R.raw.bike ))
+    val composition by rememberLottieComposition(LottieCompositionSpec.RawRes(R.raw.bike_not_working))
+//    val composition by rememberLottieComposition(LottieCompositionSpec.RawRes(R.raw.bike_working ))
     val progress by animateLottieCompositionAsState(composition)
 
     val dynamicProperties =
